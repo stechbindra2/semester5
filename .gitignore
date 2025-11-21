@@ -1,0 +1,405 @@
+# ==================== Python ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==================== Virtual Environment ====================
+# Virtual environment directories
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# ==================== IDE & Editors ====================
+# Visual Studio Code
+.vscode/
+.vs/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ==================== Operating System ====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ==================== Project Specific ====================
+# Machine Learning Models (large files)
+*.h5
+!model_c.h5
+!model_bacc.h5
+*.pkl
+*.joblib
+*.ckpt
+*.pb
+*.pth
+*.weights
+*.caffemodel
+
+# SavedModel format
+*_savedmodel/
+model_c_fixed_savedmodel/
+model_bacc_fixed_savedmodel/
+
+# Datasets (large files)
+fer2013_new_data/
+ckplus_data/
+data/
+datasets/
+*.csv
+!requirements.txt
+
+# Kaggle credentials
+.kaggle/
+kaggle.json
+
+# Trained model backups
+model_*_fixed.h5
+*_backup.h5
+
+# ==================== LaTeX ====================
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.ps
+*.pdf
+!University_of_Delhi.png
+
+# LaTeX temporary files
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.loa
+*.bcf
+*.run.xml
+*-blx.bib
+*.xdy
+*.idx
+*.ilg
+*.ind
+
+# BibTeX
+*.bib.bak
+*.bib.sav
+
+# ==================== Jupyter Notebooks ====================
+# Jupyter checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Jupyter runtime
+.jupyter/
+
+# ==================== Streamlit ====================
+# Streamlit cache
+.streamlit/
+streamlit_cache/
+
+# ==================== Generated Files ====================
+# Auto-generated visualizations
+images/*.png
+!images/.gitkeep
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# Session data
+sessions/
+*.json
+!package.json
+
+# Logs
+logs/
+*.log
+
+# ==================== Archives ====================
+# Compressed files
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.gz
+
+# ==================== Miscellaneous ====================
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Node modules (if using any JS tools)
+node_modules/
+
+# Python cache
+*.pyc
+*.pyo
+
+# ==================== Security ====================
+# Sensitive information
+*.pem
+*.key
+*.cert
+secrets.py
+config.py
+credentials.json
+
+# API keys
+.env.local
+.env.*.local
+
+# ==================== Project Output ====================
+# Report PDFs (generated, not source)
+NeuroStress_Report_Final.pdf
+*_Report.pdf
+
+# Screenshots
+screenshots/
+*.png
+!University_of_Delhi.png
+
+# Video recordings
+recordings/
+*.mp4
+*.avi
+*.mov
+
+# ==================== Cache ====================
+# Python cache
+__pycache__/
+*.py[cod]
+.cache/
+
+# TensorFlow cache
+.keras/
+tensorflow_datasets/
+
+# Matplotlib cache
+.matplotlib/
+
+# ==================== Keep Essential Files ====================
+# Force include essential files
+!.gitignore
+!README.md
+!LICENSE
+!requirements.txt
+!stress_dashboard.py
+!stress_detection.ipynb
+!generate_visualizations.py
+!compile_report.ps1
+!fix_models.py
+!convert_model.py
+
+# Keep LaTeX source files
+!*.tex
+!Chapter/*.tex
+
+# Keep documentation
+!*.md
+!PROJECT_DOCUMENTATION.md
+!REQUIRED_IMAGES_README.md
+!IMAGE_IMPLEMENTATION_SUMMARY.md
+!ALGORITHMS_IMPLEMENTATION_SUMMARY.md
+!FINAL_CHECKLIST.md
+!LATEX_COMPILATION_GUIDE.md
+!PROJECT_COMPLETE_README.md
+
+# Keep configuration files
+!.gitattributes
+!.editorconfig
+
+# Keep models (but they're large, consider Git LFS)
+# Comment out if models should be excluded
+!model_c.h5
+!model_bacc.h5
+model_bacc_fixed_savedmodel
+
+!model_c_fixed_savedmodel
+!model_bacc_fixed.h5
+!model_c_fixed.h5
