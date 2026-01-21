@@ -341,16 +341,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 📧 Contact & Support
-
-For questions, issues, or contributions:
-- 📧 Email: your.email@example.com
-- 🐛 Issues: GitHub Issues
-- 💬 Discussions: GitHub Discussions
-- 🌟 Star this repo if you find it useful!
-
----
-
 ## 🌟 Key Highlights
 
 > "NeuroStress Pro represents the cutting edge of emotion AI, combining deep learning, computer vision, and modern UX design to create an unparalleled stress monitoring experience."
